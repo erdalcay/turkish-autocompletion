@@ -1,8 +1,10 @@
 # Turkish Auto-Completion
 
-<img src="https://gfycat.com/vapidshockedafricanclawedfrog.gif" />
+<p align="center">
+  <img src="https://media.giphy.com/media/KArsmHDUvE2AqW7cx4/giphy.gif" alt="turkish auto-completion" />
+</p>
 
-----
+## Auto-completion using tries
 
 A simple app that implements an auto-completion feature using Trie data structure.
 
