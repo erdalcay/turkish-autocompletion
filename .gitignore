@@ -1,0 +1,26 @@
+# python
+__pycache__
+venv
+
+# node
+node_modules
+
+# credentials
+.env
+
+# txt & serials
+corpus*.txt
+*_en.pickle
+
+# editor
+.vscode/*
+
+# production
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

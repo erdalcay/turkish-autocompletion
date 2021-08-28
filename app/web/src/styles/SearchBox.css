@@ -1,0 +1,97 @@
+.search-box-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-top: 100px;
+  justify-content: baseline;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline {
+  width: 520px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  color: #8404ec;
+}
+
+.search-box {
+  padding: 0;
+  width: 520px;
+  /* height: 500px; */
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #8404ec;
+  border-radius: 24px;
+  transition: 0.5s;
+  background: white;
+  flex-direction: column;
+}
+
+.search-box:hover {
+  box-shadow: 0px 0px 10px 2px rgba(132, 4, 236, 0.1);
+  border: white;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.left-padding {
+  height: 100%;
+  width: 30px;
+}
+
+input {
+  width: 440px;
+  height: 42px;
+  position: relative;
+  line-height: 16px;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  border: none;
+  background: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.clear {
+  width: 50px;
+  font-size: 16px;
+  line-height: 44px;
+  text-align: center;
+  transition: 0.5s;
+  color: #8404ec;
+}
+
+.clear:hover {
+  cursor: pointer;
+}
+
+.suggestions {
+  width: 90%;
+  margin: 0 auto;
+  background: none;
+  border-top: 1px solid #8404ec;
+  display: block;
+}
+
+.no-display {
+  display: none;
+}
+
+.display {
+  display: block;
+}

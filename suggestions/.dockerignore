@@ -1,0 +1,7 @@
+__pycache__
+venv
+*.txt
+*_en.pickle
+scripts
+Makefile
+README.md

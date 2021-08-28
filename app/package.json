@@ -1,0 +1,23 @@
+{
+  "name": "turkish-auto-completion",
+  "version": "1.0.0",
+  "description": "Turkish Auto Completion",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run-script build --prefix web",
+    "build-start": "npm run-script build --prefix web && node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "author": "@erdalcay",
+  "license": "ISC"
+}
