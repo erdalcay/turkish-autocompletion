@@ -5,7 +5,6 @@ import { config } from 'dotenv';
 
 config();
 const SUGGESTIONS_SERVICE_URL = process.env.SUGGESTIONS_SERVICE_URL;
-console.log(SUGGESTIONS_SERVICE_URL);
 
 const app = express();
 
