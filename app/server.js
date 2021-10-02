@@ -35,7 +35,7 @@ app.post('/suggestions', async (req, res) => {
 /**
  * 404 for unmatched routes
  */
- app.use((_req, res) => {
+app.use((_req, res) => {
   return res.status(404);
 });
 
